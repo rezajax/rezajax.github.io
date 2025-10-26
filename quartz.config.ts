@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "🧑‍💻 Reza Blog",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f5f5f5", // Material Design Light
+          lightgray: "#eeeeee", // Material Design Light Gray
+          gray: "#9e9e9e", // Material Design Gray
+          darkgray: "#616161", // Material Design Dark Gray
+          dark: "#212121", // Material Design Dark
+          secondary: "#1976d2", // Material Design Blue
+          tertiary: "#607d8b", // Material Design Blue Gray
+          highlight: "rgba(0, 0, 0, 0.12)", // Material Design Highlight
+          textHighlight: "#ffeb3b", // Material Design Yellow
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#303030", // Material Design Dark background
+          lightgray: "#616161", // Material Design Dark Gray
+          gray: "#9e9e9e", // Material Design Gray
+          darkgray: "#bdbdbd", // Material Design Light Gray
+          dark: "#fafafa", // Material Design Light Text on Dark background
+          secondary: "#2196f3", // Material Design Blue
+          tertiary: "#80deea", // Material Design Cyan
+          highlight: "rgba(0, 0, 0, 0.12)", // Material Design Highlight
+          textHighlight: "#ffeb3b", // Material Design Yellow
         },
       },
     },
